@@ -68,7 +68,7 @@ for file in filenames:
     
     for g in List1:
         
-        cv2.line(Main_Image,(g[1],g[0]),(g[3],g[2]),0,3)
+        #cv2.line(Main_Image,(g[1],g[0]),(g[3],g[2]),0,3) #Visualisation process, easy to see many errors ;-;
         
         op = (g[2]-g[0])/2 #Defining Oposite leg
         ad = (g[3]-g[1])/2 #Defining Adjacent leg
